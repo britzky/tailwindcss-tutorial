@@ -2,14 +2,13 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div >
-      <p className="break-all">Thisisalongsentencewithalotofwordstoexplaintruncatewilltruncatemysentance</p>
-      {/* <h1 className="text-3xl">Title 1</h1>
-      <h2 className="text-2xl">Title 2</h2>
-      <h3 className="text-xl">Title 3</h3>
-      <p className="text-base uppercase">A regular paragraph</p>
-      <p className="text-sm">A description paragraph</p>
-      <p className="note text-xs">A little note</p> */}
+    <div className=" Parent">
+      <div>Header</div>
+      <div className="flex items-baseline ...">
+        <div className=" bg-sky-500 pt-2 pb-6">01</div>
+        <div className=" bg-red-500 pt-8 pb-12">02</div>
+        <div className="bg-green-500 pt-12 pb-4">03</div>
+      </div>
     </div>
 
   )
