@@ -59,6 +59,11 @@ module.exports = {
           100: "#49e659",
           936: "#434252"
         },
+        fontSize: {
+          xs: '12px',
+          sm: '15px',
+          base: '18px',
+        },
       },
     },
   },
