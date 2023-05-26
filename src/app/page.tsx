@@ -2,13 +2,13 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="h-screen text-white Parent bg-slate-900">
-      <div className="container flex">
-      <div className="bg-red-500 z-40 border-white rounded-full p-4">05</div>
-      <div className="bg-red-500 z-30 border-white rounded-full p-4">04</div>
-      <div className="bg-red-500 z-20 border-white rounded-full p-4">03</div>
-      <div className="bg-red-500 z-10 border-white rounded-full p-4">02</div>
-      <div className="bg-red-500 z-0 border-white rounded-full p-4">01</div>
+    <div className="h-screen p-4 Parent">
+      <div className="inline-block p-4 text-black bg-white border rounded-lg shadow-md">
+        <h1 className="text-2xl">Hello</h1>
+        <p className="mb-4">This is my div</p>
+        <button className="px-3 py-2 rounded-lg cursor-pointer bg-cyan-500 shadow-md shadow-cyan-500/50  animate-bounce">
+          Say Hello
+        </button>
       </div>
     </div>
 
